@@ -1,0 +1,35 @@
+.paginationBttns {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+    cursor: pointer;
+
+}
+
+.paginationActive:active {
+    color: red;
+}
+
+/* .list-about {
+    padding: 20px;
+    border: 2px solid #ccc;
+    background: #f1f1f1;
+} */
+
+/* CSS thẻ bao đoạn text cần ẩn */
+/* .item {
+    display: block;
+    display: -webkit-box;
+    height: 16px*1.3*3;
+    font-size: 16px;
+    line-height: 1.3;
+    -webkit-line-clamp: 6;
+   
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+} */
+.date {
+    color: red;
+}

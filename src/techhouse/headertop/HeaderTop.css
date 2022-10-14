@@ -1,0 +1,75 @@
+.fs-14px {
+    font-size: 14px;
+}
+
+.header-top-main {
+
+    height: 40px;
+    background: #232323;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    display: flex;
+    margin: 12px 0px 11px 140px;
+    column-gap: 28px;
+}
+
+.header-top-right {
+    display: flex;
+    list-style: none;
+    margin-right: 140px;
+    line-height: 3;
+}
+
+.header-top-right li {
+    font-size: 14px;
+
+}
+
+.header-top-right li:first-child {
+    padding-right: 18px;
+}
+
+.header-top-right li:first-child i {
+    padding-right: 9px;
+}
+
+.header-top-right li:nth-child(3) {
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+.header-top-right li:nth-child(5) {
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+.header-top-right li:last-child {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header-top-right li:last-child i {
+    padding-right: 10px;
+}
+
+.header-top-right li:hover {
+    background: #3b3b3b;
+}
+
+.header-top-right li:nth-child(2n) {
+    width: 1px;
+    height: 20px;
+    color: #3b3b3b;
+}
+
+.headertop-left-slider {
+    width: 350px;
+    margin-left: 28px;
+}
+
+.headertop-left-title.fs-14px {
+    margin-left: 42px;
+}

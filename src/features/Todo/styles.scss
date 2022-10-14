@@ -1,0 +1,19 @@
+.todo-list {
+    max-width: 50px;
+
+    & li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    // &>li:hover {
+    //     color: aqua;
+    // }
+
+    &>li.completed {
+        color: rgb(237, 15, 15);
+        font-style: italic;
+        text-decoration: line-through;
+
+    }
+}
