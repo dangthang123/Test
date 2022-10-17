@@ -16,6 +16,8 @@ import Menu from './techhouse/Menu';
 import MenuDrop from './techhouse/MenuDrop';
 import Fech from './Api/TestAPibun/Fech';
 import TestAPIyoutobe from './thecanvs/TestAPIyoutobe';
+import TestAPIYt2 from './thecanvs/TestAPIYt2';
+import TestLogingmail from './thecanvs/TestLogingmail';
 // import ColorBox from './useState';
 // import ColorBox from './components/colorbox';
 // import TodoFeature from './features';
@@ -47,8 +49,12 @@ function App() {
       {/* <HeaderTop /> */}
       {/* <Menu /> */}
       {/* <MenuDrop /> */}
+
+
       {/* <Fech /> */}
-      <TestAPIyoutobe />
+      {/* <TestAPIyoutobe /> */}
+      {/* <TestAPIYt2 /> */}
+      <TestLogingmail />
     </div>
   );
 }
