@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ApiFilter from '../Api/ApiFilter1';
 import Filter from './Filter';
-
+import Api from '../Api/Api2';
 
 
 function AllProductFilter() {
     const use = ApiFilter();
     const dataF = use;
 
+    const datal = Api();
+    // console.log(datal);
     // const dataS = dataF.length;
 
     // let data = [];
@@ -43,6 +45,7 @@ function AllProductFilter() {
                 filterItem={filterItem}
                 menuItems={menuItems}
                 setItem={setItem}
+                data={datal}
             />
             {data.map((pro) => (
                 <div className='list' key={pro.id}>
@@ -57,7 +60,12 @@ function AllProductFilter() {
                     {/* <p>{pro.description}</p> */}
                 </div>
             ))}
-            {item.length === 0 && <div className='no-item' style={{ fontSize: '50px' }}>No Item</div>}
+            {item.length === 0 && <div className='no-item' style={{ fontSize: '50px' }}>
+
+                {datal.map((e) => (
+                    <p key={e.id}>{e.name}</p>
+                ))}
+            </div>}
 
         </div>
     );

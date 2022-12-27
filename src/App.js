@@ -18,12 +18,31 @@ import Fech from './Api/TestAPibun/Fech';
 import TestAPIyoutobe from './thecanvs/TestAPIyoutobe';
 import TestAPIYt2 from './thecanvs/TestAPIYt2';
 import TestLogingmail from './thecanvs/TestLogingmail';
+import TestYTsearch from './thecanvs/TestYTsearch';
+import Test from './thecanvs/test';
+import Tets from './thecanvs/tets';
+import TestSlider from './BlogPage/TestSlider';
+import TestStyle from './BlogPage/TestStyle';
+import AllProductFilter from './Pro/AllProductFilter';
+import TestZoom from './BlogPage/TestZoom';
+import ProductClothes from './Clothes/product';
+import Time from './Clothes/time';
+import Testjs from './jsBasic/inputcomponents';
+import Index from './jsBasic/test';
+import Hook from './jsBasic/Hook';
+import Header from './Unit/Header';
 // import ColorBox from './useState';
 // import ColorBox from './components/colorbox';
 // import TodoFeature from './features';
 // import CounterFeature from './Redux/Counter/index';
 // import ProductAPI from './Pro/redux/api/ApiProduct';
+import IndexMain from './Unit/index';
+import "react-horizontal-vertical/rhv.css";
+import { Rhv } from 'react-horizontal-vertical';
+import Footerr from './Unit/Footerr';
+import Scroll from './Unit/scroll';
 function App() {
+
   return (
     <div className="App">
       {/* <ColorBox />
@@ -37,6 +56,7 @@ function App() {
       {/* <Product /> */}
       {/* <ProductAPI /> */}
       {/* <ProductWomen /> */}
+      {/* <AllProductFilter /> */}
 
       {/* <Api3 /> */}
       {/* <CounterFeature /> */}
@@ -54,7 +74,27 @@ function App() {
       {/* <Fech /> */}
       {/* <TestAPIyoutobe /> */}
       {/* <TestAPIYt2 /> */}
-      <TestLogingmail />
+      {/* <TestLogingmail /> */}
+      {/* <TestYTsearch />   */}
+      {/* <Test /> */}
+      {/* <Tets /> */}
+
+      {/* <TestSlider /> */}
+      {/* <TestStyle /> */}
+      {/* <TestZoom /> */}
+
+
+      {/* <ProductClothes /> */}
+      {/* <Time /> */}
+      {/* <Testjs /> */}
+
+      {/* <Index />
+      <Hook /> */}
+
+      {/* <Header /> */}
+      {/* <IndexMain /> */}
+
+      <Scroll />
     </div>
   );
 }

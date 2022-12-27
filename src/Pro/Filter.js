@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Filter({ dataF, filterItem, menuItems, setItem }) {
+function Filter({ datal, dataF, filterItem, menuItems, setItem }) {
 
     return (
         <div>
@@ -9,15 +9,16 @@ function Filter({ dataF, filterItem, menuItems, setItem }) {
                 FILTER{""}
                 {menuItems.map((vla, id) => {
                     return (
-                        <button
+                        <li
                             className="item"
                             key={id}
                             onClick={() => filterItem(vla)}
                         >
                             {vla}
-                        </button>
+                        </li>
                     );
                 })}
+                <li onClick={() => filterItem(datal)}>aLL</li>
 
             </div>
         </div>
